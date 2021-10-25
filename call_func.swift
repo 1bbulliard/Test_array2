@@ -18,7 +18,7 @@ struct Callfunc_structure
         // **** test array stuff
         var teststring = ["Bob", "Tom", "Gabe", "henry"]
         print(teststring[0])
-        print("Yooo there \(teststring[1])")
+        print("Yoooxx there \(teststring[1])")
         
         var employee =
         [
