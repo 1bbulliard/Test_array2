@@ -14,6 +14,7 @@
 		5CAAA39F272757A500817FEA /* Test_array2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAAA39E272757A500817FEA /* Test_array2Tests.swift */; };
 		5CAAA3A9272757A500817FEA /* Test_array2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAAA3A8272757A500817FEA /* Test_array2UITests.swift */; };
 		5CAAA3AB272757A500817FEA /* Test_array2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAAA3AA272757A500817FEA /* Test_array2UITestsLaunchTests.swift */; };
+		5CAAA3B82727581B00817FEA /* call_func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAAA3B72727581B00817FEA /* call_func.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5CAAA3A4272757A500817FEA /* Test_array2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_array2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CAAA3A8272757A500817FEA /* Test_array2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_array2UITests.swift; sourceTree = "<group>"; };
 		5CAAA3AA272757A500817FEA /* Test_array2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_array2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CAAA3B72727581B00817FEA /* call_func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = call_func.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		5CAAA3812727579E00817FEA = {
 			isa = PBXGroup;
 			children = (
+				5CAAA3B72727581B00817FEA /* call_func.swift */,
 				5CAAA38C2727579E00817FEA /* Test_array2 */,
 				5CAAA39D272757A500817FEA /* Test_array2Tests */,
 				5CAAA3A7272757A500817FEA /* Test_array2UITests */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CAAA3902727579E00817FEA /* ContentView.swift in Sources */,
+				5CAAA3B82727581B00817FEA /* call_func.swift in Sources */,
 				5CAAA38E2727579E00817FEA /* Test_array2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

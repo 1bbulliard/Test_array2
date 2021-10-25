@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+   // @State private var game: Game = Game()
+//    @State private var test_arrayx: Test_array2App = //test_array
+    @State private var callfunc_structure: Callfunc_structure = Callfunc_structure()
+    
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, worldx!")
             .padding()
+        // func begin
+        Text("value is \(self.callfunc_structure.testfunc(testnum:1)) ")
+        // func end
     }
 }
 
