@@ -42,13 +42,23 @@ struct Callfunc_structure
         print (olympics[2012, default: "unknown"])
         print (olympics[2021, default: "unknown"])
         
+        let names = ["Arthur", "Ford", "Trillian", "Zaphod", "Marvin"]
+        for name in names {
+            print(name)
+        }
+        let namesy = ["bob", "george", "bill", "tom", "fred"]
+     //   namesy[2] = "Prostetnic Vogon Jeltz"
         
+        print("Printing the last array with bob")
+        
+        print("\(namesy)  this is printing namesy")
+        print("just printed last array with bob")
         // ****** test array end
         
-      
-        let awardedpoints: Int = 120 - diff
+        diff = 5 - testnum
+       
        // return awardedpoints
-        return testnum
+        return diff
         
                                          }
 }
